@@ -22,11 +22,11 @@ lottery_quantity_str = "5"
 
 def main():
     global candy_quantity_str, soda_quantity_str, gallons_str, pounds_str, lottery_quantity_str
-    candy_quantity_str = input("How many candy bars? ")
-    soda_quantity_str = input("How many sodas? ")
-    gallons_str = input("How many gallons of gas? ")
-    pounds_str = input("How many pounds of deli meat? ")
-    lottery_quantity_str = input("How many lottery tickets?" )
+    candy_quantity_str = int(input("How many candy bars? "))
+    soda_quantity_str = int(input("How many sodas? "))
+    gallons_str = float(input("How many gallons of gas? "))
+    pounds_str = float(input("How many pounds of deli meat? "))
+    lottery_quantity_str = int(input("How many lottery tickets?" ))
 
 
 # Comment out the line below after fixing input bugs
